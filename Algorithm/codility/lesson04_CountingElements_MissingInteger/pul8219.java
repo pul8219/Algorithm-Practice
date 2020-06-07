@@ -1,4 +1,4 @@
-package codility.lesson04_CountingElements.MissingInteger;
+package codility.lesson04_CountingElements_MissingInteger;
 
 import java.util.HashSet;
 import java.util.Set;
