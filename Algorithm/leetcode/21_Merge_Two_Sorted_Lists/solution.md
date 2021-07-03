@@ -65,7 +65,7 @@ var mergeTwoLists = function (l1, l2) {
 풀이1의 실행속도가 느린편이라 Leetcode Dicussion에서 다른 풀이를 찾아봤는데 재귀적인 방식으로 문제를 푼 코드가 있었다. 실행시켜보니까 풀이1보다 훨씬 빠르다. 코드는 이해했지만 처음부터 이렇게 짜보라고 하면 짤 수 있을까 싶다..ㅎ
 
 ```js
-var mergeTwoLists = function (l1, l2) {
+var mergeTwoLists = function (l1, l2) 햣{
   // l1, l2중 하나가 null이라면 둘 중 null이 아닌 것을 반환. 물론 둘다 null일 경우는 null을 리턴할 것이다.
   if (!l1 || !l2) return l1 || l2;
   if (l1.val < l2.val) {

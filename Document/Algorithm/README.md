@@ -17,12 +17,22 @@
 - 알고리즘 풀이에 사용하는 언어를 이해하려고할 것
 - 충분한 고민 & 문제에 대한 이해/풀이 아이디어, 어려웠던 점 및 해결책 생각할 것
 
+# 빅오(Big-O) & 오메가(Ω) 표
+
+| O(n^2)                      | O(n log n) | O(n)          | O(log n)      | O(1) |
+| --------------------------- | ---------- | ------------- | ------------- | ---- |
+| bubble sort, selection sort |            | linear search | binary search |      |
+
+| Ω(n^2)                      | Ω(n log n) | Ω(n) | Ω(log n) | Ω(1)                         |
+| --------------------------- | ---------- | ---- | -------- | ---------------------------- |
+| bubble sort, selection sort |            |      |          | linear search, binary search |
+
 # 알고리즘의 종류
 
 ## 탐색(Search)
 
-- [선형 탐색(Linear Search)]()
-- [이분 탐색(Binary Search)]()
+- [선형 탐색(Linear Search)]() `O(n)`
+- [이분 탐색(Binary Search)]() `O(log n)`
   - https://im-developer.tistory.com/126
 - [순차 탐색(Sequential Search)]()
 - [해시 탐색(Hash Search)]()
@@ -37,6 +47,8 @@
 - [힙 정렬(Heap Sort)]()
 - [기수 정렬(Radix Sort)]()
 - [계수 정렬(Count Sort)]()
+
+# 재귀(Recursion)
 
 ## 완전 탐색
 

@@ -29,7 +29,7 @@
 - [스택(Stack)]('./Stack_Queue.md')
 - [큐(Queue)]('./Stack_Queue.md')
 - [데크]()
-- [연결 리스트(Linked List)]()
+- [연결 리스트(Linked List)]('./Array_LinkedList.md')
 
 > 선형 자료구조 탐색법
 >
